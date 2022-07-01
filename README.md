@@ -1,10 +1,12 @@
-# pokéResume
-Práctica de ISI
+# PokéResume
+Práctica de ISI.
 
 En esta práctica hemos implementado un buscador de Pokémon.
 Este buscador nos muestra el ID, el nombre, los tipos, las estadísticas, las habilidades y una imagen del Pokémon buscado.
 
 Recomendamos instalar los módulos de Python en un [entorno virtual](https://docs.python.org/3/library/venv.html).
+
+Live demo [aquí](https://pokemon.danielcortes.dev).
 
 ## Instalación y puesta en marcha
 
