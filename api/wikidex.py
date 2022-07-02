@@ -20,24 +20,24 @@ def wikidex_types(soup_data):
     return pokemon_types
 
 
-def wikidex_stats(soup_data):
+#def wikidex_stats(soup_data):
+#
+#    pokemon_stats_table = soup_data.find_all(
+#        "table", {"class": "tabpokemon"})
+#    pokemon_stats_table = pokemon_stats_table[1]
+#    pokemon_stats_rows = pokemon_stats_table.find_all("tr")
 
-    pokemon_stats_table = soup_data.find_all(
-        "table", {"class": "tabpokemon"})
-    pokemon_stats_table = pokemon_stats_table[1]
-    pokemon_stats_rows = pokemon_stats_table.find_all("tr")
+#    pokemon_stats_rows.pop(0)
+#    pokemon_stats_rows.pop()
+#    pokemon_stats_rows.pop()
+#    pokemon_stats = {}
 
-    pokemon_stats_rows.pop(0)
-    pokemon_stats_rows.pop()
-    pokemon_stats_rows.pop()
-    pokemon_stats = {}
+#    for row in pokemon_stats_rows:
+#        pokemon_stats.update(
+#            {row.find("th").find("a").get("title").replace(" (estadística)", "")
+#             : row.find_all("td")[0].text.strip()})
 
-    for row in pokemon_stats_rows:
-        pokemon_stats.update(
-            {row.find("th").find("a").get("title").replace(" (estadística)", "")
-             : row.find_all("td")[0].text.strip()})
-
-    return pokemon_stats
+#    return pokemon_stats
 
 
 def wikidex_abilities(soup_data):
@@ -90,7 +90,7 @@ def wikidex_data(pokemon):
     pokemon_data = {"id": pokemon_id,
                     "name": pokemon_name,
                     "types": pokemon_types, 
-                    "stats": pokemon_stats, 
+                    #"stats": pokemon_stats, 
                     "abilities": pokemon_abilities}
         
     return pokemon_data
