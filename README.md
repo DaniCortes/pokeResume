@@ -8,8 +8,6 @@ Este buscador nos muestra el ID, el nombre, los tipos, las estadísticas, las ha
 
 Recomendamos instalar los módulos de Python en un [entorno virtual](https://docs.python.org/3/library/venv.html).
 
-Live demo [aquí](https://pokemon.danielcortes.dev).
-
 ## Instalación y puesta en marcha
 
 ```bash
