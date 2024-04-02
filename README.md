@@ -27,8 +27,5 @@ pip install -r pokeResume/api/requirements.txt
 pokeResume/api/.venv/bin/python pokeResume/api/isi_api.py
 ```
 
-## Visualización de la página web
-Doble click a ```pokeResume/web/index.html```. Esta página recolecta los datos de [mi API](https://api.danielcortes.dev/pokemon) para mayor facilidad a la hora de probarlo.
-
 ## Autores
 Daniel Cortés y Cristian Guerra
